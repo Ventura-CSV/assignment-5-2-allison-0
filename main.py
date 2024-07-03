@@ -15,10 +15,9 @@ def isPrime(num):
 
 def primeNumbers(begin, end):
     plist = []
-    ##################################################
-    # make your code
-    ##################################################
-    # isPrime(value)
+    for n in range(begin, end + 1):
+        if isPrime(n):
+            plist.append(n)
 
     return plist
 
